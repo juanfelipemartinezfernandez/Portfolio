@@ -2,9 +2,12 @@
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
   letter-spacing: 0.2rem;
-  color: #dddbc2;
+  color:rgba(72, 77, 83);
 }
-section{
+body{
+  background: linear-gradient(90deg, rgba(2,52,89,1) 27%, rgba(34,195,169,1) 82%, rgba(34,193,195,1) 100%);
+}
+/*section{
   background-image: url(./Assets/Images/5.jpg);
   color: aliceblue;
   
@@ -13,27 +16,35 @@ section{
   background-image: url(/Assets/Images/4.jpg);
   color: aliceblue;
   
-}
+}*/
 .mi_boton:hover{
   background-color: #dddbc2;
   color: black;
 
 }
+.mi_boton{
+  background-color: black;
+  color: white;
+}
 #span1{
   color: aqua;
 }
+.mio{
+  background-color: white;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+}
 .mycontainer{
   border: 0.1rem solid black !important;
-  background-color: rgba(72, 77, 83, 0.9);
+  
   font-weight: 900 !important;
-  color:#dddbc2;
+  color:white;
 }
 .h1mine{
-  background-color: rgb(240, 248, 255,0.8);
-  background-color: #dddbc2;
+  
   border-radius:0.75rem;
-  padding: 0.75rem;
-  padding-left: 1rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
   color: black !important;
 }
 .nav_min1{
@@ -48,6 +59,7 @@ h2{
   letter-spacing: 0.5rem;
   color: black;
   padding: 1rem 0;
+  font-weight: bolder;
 }
 ul{
   background-color: rgba(19, 19, 19, 0.9);
@@ -57,19 +69,23 @@ ul{
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto auto;
   gap: 0.75rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .item-a{
   grid-row-start: 1;
   grid-column-start: 2;
   grid-column-end: 5;
-  background-color:rgba(72, 77, 83);
+  color:rgba(72, 77, 83);
+  background-color: #dddbc2;
+  padding: 1rem;
 }
 .item-b{
   grid-row-start: 2;
   grid-column-start: 3;
   grid-column-end: 6;
-  background-color:rgba(72, 77, 83);
+  color:rgba(72, 77, 83);
+  background-color: #dddbc2;
+  padding: 1rem;
 }
 .imagen{
   width: 100%;
@@ -77,7 +93,6 @@ ul{
   border-radius: 0.95rem;
 }
 .aboutcontainer div{
-  padding: 0.75rem;
   
   border-radius: 0.75rem;  
   font-weight: 500;
@@ -125,7 +140,8 @@ ul{
 }
 .little_boxes{
   display: flex;
-  background-color:rgba(72, 77, 83);
+  color:rgba(72, 77, 83);
+  background-color: #dddbc2;
   border-radius: 0.75rem;
   padding: 0.75rem;
   min-height: 38vh;
@@ -134,8 +150,8 @@ ul{
   align-items: center;
 }
 .little_boxes:hover{
-  color:rgba(72, 77, 83);
-  background-color:#dddbc2;
+  background-color:rgba(72, 77, 83);
+  color:#dddbc2;
   cursor:pointer;
 }
 .little_boxes p{
