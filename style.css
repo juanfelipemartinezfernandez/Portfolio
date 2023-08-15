@@ -203,3 +203,9 @@ ul{
   padding: 1rem;
   
 }
+@media (max-width:600px) {
+  li{
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+}
