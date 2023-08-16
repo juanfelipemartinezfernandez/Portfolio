@@ -58,8 +58,9 @@ function modificarTextoSegunAncho() {
   const elementoTexto = document.getElementById('texto-modificable');
   if (window.innerWidth <= 600) {
     elementToWatch.innerHTML = "<a href='https://www.efset.org/cert/6XLnDw'>English(85%)</a>";
+    document.querySelector(".email").innerHTML = "Email: juanfelipe.martinez<br>.fernandez@gmail.com"
   } else {
-    
+    document.querySelector(".email").innerHTML = "Email: juanfelipe.martinez.fernandez@gmail.com"
   }
 }
 // Ejecuta la función inicialmente
