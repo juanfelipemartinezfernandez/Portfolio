@@ -7,3 +7,12 @@ function goToIt(){
     });
   
 }
+for (let i = 0; i < document.querySelectorAll(".little_boxes").length; i++) {
+    
+    document.querySelectorAll(".little_boxes")[i].addEventListener("click", function(){
+    document.querySelectorAll(".little_boxes")[i].classList.add("hide");
+    document.querySelectorAll(".little_boxes")[i].classList.add("show");
+    
+  });
+  
+}
