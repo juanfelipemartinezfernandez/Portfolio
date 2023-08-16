@@ -257,3 +257,24 @@ a:visited{
 *{
   scroll-behavior: smooth !important;
 }
+.idioma{
+  background-color: red;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  width: 40%;
+  margin-bottom: 0.75rem;
+  transition: width 2s;
+}
+.idioma2{
+  background-color: blue;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  width: 40%;
+  transition: width 2s;
+}
+.widht{
+  width: 85%;
+}
+.widht1{
+  width: 100%;
+}
