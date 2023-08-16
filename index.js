@@ -51,3 +51,19 @@ const observer = new IntersectionObserver(callback, options);
 
 // Start observing the element
 observer.observe(elementToWatch);
+
+// Codigo para cambiar comportamiento barras de idioma cuando screen 600px\
+
+function modificarTextoSegunAncho() {
+  const elementoTexto = document.getElementById('texto-modificable');
+  if (window.innerWidth <= 600) {
+    elementToWatch.innerHTML = "<a href='https://www.efset.org/cert/6XLnDw'>English(85%)</a>";
+  } else {
+    
+  }
+}
+// Ejecuta la función inicialmente
+modificarTextoSegunAncho();
+
+// Agrega un evento resize para seguir verificando el tamaño de la ventana
+window.addEventListener('resize', modificarTextoSegunAncho);

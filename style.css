@@ -4,6 +4,7 @@
   letter-spacing: 0.2rem;
   color: white;
 }
+
 body{
   background: linear-gradient(90deg, rgba(2,52,89,1) 27%, rgba(34,195,169,1) 82%, rgba(34,193,195,1) 100%);
 }
@@ -277,4 +278,31 @@ a:visited{
 }
 .widht1{
   width: 100%;
+}
+.lenguajes{
+  text-decoration: none;
+}
+@media (max-width:600px) {
+  .lenguajes{
+    display: flex;
+    justify-content:flex-start;
+    
+  }
+  .idioma2{
+    max-width: 85%;
+    
+    /* min-width: 55.25vw;
+    max-width: 55.25vw; */
+    
+  }
+  .idioma{
+    
+    max-width: 100%;
+    /* min-width: 65vw;
+    max-width: 65vw; */
+  }
+
+}
+a, .lenguajes{
+  list-style:none;
 }
