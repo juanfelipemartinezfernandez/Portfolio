@@ -2,7 +2,7 @@
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
   letter-spacing: 0.2rem;
-  color: white;
+  color:#E1D9D1 !important;
 }
 
 body{
@@ -17,15 +17,15 @@ body{
 .mi_boton{
   background-color: black;
   color: white;
-  min-width: 43.45vw;
+  
 }
 #span1{
-  color: aqua;
+  color: aqua  !important;
 }
 .mio{
-  background-color: white;
+  background-color: rgb(1, 1, 1,0.4);
   border-radius: 0.75rem;
-  padding: 0.75rem;
+  color: #E1D9D1 !important;
 }
 .mycontainer{
   border: 0.1rem solid black !important;
@@ -38,11 +38,9 @@ body{
   border-radius:0.75rem;
   padding-bottom: 0.75rem;
   
-  color: black !important;
+  color: #E1D9D1 !important;
 }
-.nav_min1{
-  background-color: black;  
-}
+
 a{
   color: whitesmoke;
 }
@@ -53,7 +51,7 @@ h2{
   text-align: center;
   padding: 0.75rem;
   letter-spacing: 0.5rem;
-  color: black;
+  color: black !important;
   padding: 1rem 0;
   font-weight: bolder;
   background-color: rgba(250, 250, 250, 0.5);
